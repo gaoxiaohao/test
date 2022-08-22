@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spring-expression-5.3.22">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../IDEA/plugin/spring-expression-5.3.22.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

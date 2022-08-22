@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="name" class="spring.Pad">
+        <!--        set 方法注入-->
+        <property name="bname">
+            <value>
+<!--                特殊符号标识-->
+                <![CDATA[<男><测>]]>
+            </value>
+        </property>
+
+    </bean>
+
+<!--        <bean id="name" class="spring.Pad">-->
+<!--            &lt;!&ndash;       有参构造 方法注入&ndash;&gt;-->
+<!--            <property name="bname" value="易筋经"/>-->
+<!--            <constructor-arg name="bname" value="china"/>-->
+<!--        </bean>-->
+    <!--       命名空间 方法注入-->
+<!--    <bean id="name" class="spring.Pad" p:bname="ok">-->
+<!--    </bean>-->
+</beans>
